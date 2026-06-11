@@ -5,15 +5,11 @@
 // ============================================================
 
 const SVC_META = [
-  { icon: 'air-vent', cats: ['ac'] },
-  { icon: 'refrigerator', cats: ['fridge'] },
-  { icon: 'thermometer-snowflake', cats: ['fridge', 'commercial'] },
-  { icon: 'snowflake', cats: ['fridge'] },
-  { icon: 'washing-machine', cats: ['appliance'] },
-  { icon: 'building-2', cats: ['commercial'] },
-  { icon: 'calendar-check', cats: ['ac', 'commercial', 'appliance'] },
+  { icon: 'calendar-check',        cats: ['amc', 'chiller'] },
+  { icon: 'thermometer-snowflake', cats: ['chiller'] },
+  { icon: 'wrench',                cats: ['chiller'] },
 ];
-const TAB_IDS = ['all', 'ac', 'fridge', 'appliance', 'commercial'];
+const TAB_IDS = ['all', 'chiller', 'amc'];
 const FEAT_ICONS = ['shield-check', 'receipt-text', 'timer', 'badge-check'];
 
 function ServiceCard({ meta, s, book }) {
@@ -73,7 +69,7 @@ function WhyUs() {
     <section className="why" id="why-us">
       <div className="wrap why-grid">
         <div className="why-visual" data-animate>
-          <div className="why-photo"><img src="assets/technician.png" alt="Hamid Corporation technician servicing a Voltas AC unit" loading="lazy" /></div>
+          <div className="why-photo"><img src="assets/image copy.png" alt="Al Shafa HVAC technician servicing a chiller unit" loading="lazy" /></div>
           <div className="why-badge">
             <span className="wb-num">4.9</span>
             <div className="wb-t"><b style={{ color: 'var(--text)' }}>{W.badgeTop}</b><br />{W.badgeSub}</div>

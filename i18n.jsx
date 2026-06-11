@@ -30,16 +30,12 @@ const STRINGS = {
     services: {
       eyebrow: 'What we fix', title: 'One team for everything that keeps you cool.',
       intro: 'Pick a category to find your specialist.',
-      tabs: ['All services', 'Air Conditioning', 'Refrigeration', 'Appliances', 'Commercial'],
+      tabs: ['All services', 'Chiller', 'AMC'],
       book: 'Book this service',
       list: [
-        { t: 'AC Repair & Installation', d: 'Repairs, gas refills & new installs — every AC type.', tags: ['Gas refill', 'Compressor', 'Install'] },
-        { t: 'Refrigerator Repair', d: 'Cooling loss, leaks & faults — all major brands.', tags: ['No cooling', 'Leaks', 'Thermostat'] },
-        { t: 'Chiller & Cold Room', d: 'Walk-in chillers & cold rooms, kept at spec.', tags: ['Cold rooms', 'Temp control', 'Service'] },
-        { t: 'Freezer Repair', d: 'Defrost faults, frost build-up & seal fixes.', tags: ['Defrost', 'Seals', 'Frost'] },
-        { t: 'Washing Machine Repair', d: 'Drainage, drum & motor — front and top load.', tags: ['Drainage', 'Drum', 'Motor'] },
-        { t: 'Commercial & Industrial Cooling', d: 'HVAC & refrigeration for shops & warehouses.', tags: ['HVAC', 'Central plant', 'Retail'] },
-        { t: 'Annual Maintenance (AMC)', d: 'Scheduled tune-ups that prevent breakdowns.', tags: ['Scheduled', 'Priority', 'Tune-ups'] },
+        { t: 'AMC Chiller', d: 'Annual maintenance contracts for chillers — scheduled upkeep to keep systems running at peak.', tags: ['Annual contract', 'Scheduled', 'Preventive'] },
+        { t: 'CNC Metal Chiller', d: 'Expert servicing for CNC metal chillers in industrial and manufacturing environments.', tags: ['Industrial', 'CNC', 'Precision cooling'] },
+        { t: 'All Chiller Repairing', d: 'Full chiller diagnostics and repairs — compressors, condensers, controls and refrigerant systems.', tags: ['Compressor', 'Condenser', 'Controls'] },
       ],
       emergency: { t: '24/7 Emergency Callout', d: 'Day or night, we answer. Always.', tags: ['Any hour', 'Rapid response', 'All areas'], cta: 'Call the hotline' },
     },
@@ -148,16 +144,12 @@ const STRINGS = {
     services: {
       eyebrow: 'हम क्या ठीक करते हैं', title: 'आपको ठंडा रखने वाली हर चीज़ के लिए एक ही टीम।',
       intro: 'अपना विशेषज्ञ चुनने के लिए श्रेणी चुनें।',
-      tabs: ['सभी सेवाएँ', 'एयर कंडीशनिंग', 'रेफ्रिजरेशन', 'उपकरण', 'व्यावसायिक'],
+      tabs: ['सभी सेवाएँ', 'चिलर', 'AMC'],
       book: 'यह सेवा बुक करें',
       list: [
-        { t: 'AC मरम्मत और इंस्टॉलेशन', d: 'हर तरह के AC की मरम्मत, गैस रीफिल और नई इंस्टॉलेशन।', tags: ['गैस रीफिल', 'कंप्रेसर', 'इंस्टॉल'] },
-        { t: 'रेफ्रिजरेटर मरम्मत', d: 'कूलिंग की कमी, लीक और खराबी — सभी बड़े ब्रांड।', tags: ['कूलिंग नहीं', 'लीक', 'थर्मोस्टेट'] },
-        { t: 'चिलर और कोल्ड रूम', d: 'वॉक-इन चिलर और कोल्ड रूम, सही तापमान पर।', tags: ['कोल्ड रूम', 'तापमान नियंत्रण', 'सर्विस'] },
-        { t: 'फ्रीज़र मरम्मत', d: 'डीफ्रॉस्ट, बर्फ़ जमाव और सील की मरम्मत।', tags: ['डीफ्रॉस्ट', 'सील', 'बर्फ़'] },
-        { t: 'वॉशिंग मशीन मरम्मत', d: 'ड्रेनेज, ड्रम और मोटर — हर मॉडल।', tags: ['ड्रेनेज', 'ड्रम', 'मोटर'] },
-        { t: 'व्यावसायिक और औद्योगिक कूलिंग', d: 'दुकानों और गोदामों के लिए HVAC और रेफ्रिजरेशन।', tags: ['HVAC', 'सेंट्रल प्लांट', 'रिटेल'] },
-        { t: 'वार्षिक रखरखाव (AMC)', d: 'निर्धारित ट्यून-अप जो खराबी रोकें।', tags: ['निर्धारित', 'प्राथमिकता', 'ट्यून-अप'] },
+        { t: 'AMC चिलर', d: 'चिलर के लिए वार्षिक रखरखाव अनुबंध — सिस्टम को सर्वश्रेष्ठ प्रदर्शन पर रखें।', tags: ['वार्षिक अनुबंध', 'निर्धारित', 'निवारक'] },
+        { t: 'CNC मेटल चिलर', d: 'औद्योगिक और विनिर्माण वातावरण में CNC मेटल चिलर की विशेषज्ञ सर्विसिंग।', tags: ['औद्योगिक', 'CNC', 'प्रिसिशन कूलिंग'] },
+        { t: 'सभी चिलर मरम्मत', d: 'संपूर्ण चिलर निदान और मरम्मत — कंप्रेसर, कंडेंसर, नियंत्रण और रेफ्रिजरेंट सिस्टम।', tags: ['कंप्रेसर', 'कंडेंसर', 'नियंत्रण'] },
       ],
       emergency: { t: '24/7 आपातकालीन सेवा', d: 'दिन हो या रात, हम हाज़िर हैं।', tags: ['कभी भी', 'तेज़ प्रतिक्रिया', 'सभी क्षेत्र'], cta: 'हॉटलाइन पर कॉल करें' },
     },
@@ -266,16 +258,12 @@ const STRINGS = {
     services: {
       eyebrow: 'ہم کیا ٹھیک کرتے ہیں', title: 'آپ کو ٹھنڈا رکھنے والی ہر چیز کے لیے ایک ہی ٹیم۔',
       intro: 'اپنا ماہر چننے کے لیے زمرہ منتخب کریں۔',
-      tabs: ['تمام خدمات', 'ایئر کنڈیشننگ', 'ریفریجریشن', 'آلات', 'تجارتی'],
+      tabs: ['تمام خدمات', 'چلر', 'AMC'],
       book: 'یہ سروس بُک کریں',
       list: [
-        { t: 'AC مرمت اور تنصیب', d: 'ہر قسم کے AC کی مرمت، گیس بھرائی اور نئی تنصیب۔', tags: ['گیس بھرائی', 'کمپریسر', 'تنصیب'] },
-        { t: 'ریفریجریٹر مرمت', d: 'ٹھنڈک کی کمی، لیک اور خرابی — تمام بڑے برانڈ۔', tags: ['ٹھنڈک نہیں', 'لیک', 'تھرموسٹیٹ'] },
-        { t: 'چلر اور کولڈ روم', d: 'واک اِن چلر اور کولڈ روم، درست درجہ حرارت پر۔', tags: ['کولڈ روم', 'درجہ حرارت کنٹرول', 'سروس'] },
-        { t: 'فریزر مرمت', d: 'ڈی فراسٹ خرابی، برف جمنا اور سیل کی مرمت۔', tags: ['ڈی فراسٹ', 'سیل', 'برف'] },
-        { t: 'واشنگ مشین مرمت', d: 'ڈرینج، ڈرم اور موٹر — ہر ماڈل۔', tags: ['ڈرینج', 'ڈرم', 'موٹر'] },
-        { t: 'تجارتی اور صنعتی کولنگ', d: 'دکانوں اور گوداموں کے لیے HVAC اور ریفریجریشن۔', tags: ['HVAC', 'سینٹرل پلانٹ', 'ریٹیل'] },
-        { t: 'سالانہ دیکھ بھال (AMC)', d: 'مقررہ ٹیون اپ جو خرابیاں روکیں۔', tags: ['مقررہ', 'ترجیح', 'ٹیون اپ'] },
+        { t: 'AMC چلر', d: 'چلر کے لیے سالانہ دیکھ بھال معاہدہ — سسٹم کو بہترین کارکردگی پر رکھیں۔', tags: ['سالانہ معاہدہ', 'مقررہ', 'احتیاطی'] },
+        { t: 'CNC میٹل چلر', d: 'صنعتی اور مینوفیکچرنگ ماحول میں CNC میٹل چلر کی ماہرانہ سروسنگ۔', tags: ['صنعتی', 'CNC', 'درست کولنگ'] },
+        { t: 'تمام چلر مرمت', d: 'مکمل چلر تشخیص اور مرمت — کمپریسر، کنڈینسر، کنٹرولز اور ریفریجرینٹ سسٹم۔', tags: ['کمپریسر', 'کنڈینسر', 'کنٹرولز'] },
       ],
       emergency: { t: '24/7 ہنگامی سروس', d: 'دن ہو یا رات، ہم حاضر ہیں۔', tags: ['کسی بھی وقت', 'تیز ردعمل', 'تمام علاقے'], cta: 'ہاٹ لائن پر کال کریں' },
     },
@@ -374,7 +362,7 @@ function useLang() { return React.useContext(LangContext); }
 const CONTACT = {
   phoneDisplay: '+91 93192 23362',
   tel: '+919319223362',          // for tel: links
-  wa: '919319223362',            // for wa.me links (no +, no spaces)
+  wa: '919354423335',            // for wa.me links (no +, no spaces)
 };
 const waLink = (text) => 'https://wa.me/' + CONTACT.wa + (text ? '?text=' + encodeURIComponent(text) : '');
 

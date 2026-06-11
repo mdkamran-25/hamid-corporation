@@ -157,7 +157,7 @@ function Hero() {
         </div>
 
         <div className="hero-visual" data-animate style={{ '--d': '160ms' }}>
-          <div className="hero-photo"><img src="assets/ac-unit.png" alt="Hisense AC outdoor unit installed on a wall bracket" loading="lazy" /></div>
+          <div className="hero-photo"><img src="assets/image.png" alt="Al Shafa HVAC chiller service centre" loading="lazy" /></div>
           <div className="float-card fc-1">
             <span className="fc-ico green"><Icon name="check" size={21} stroke={2.4} /></span>
             <div><div className="fc-t">{h.fc1a}</div><div className="fc-s">{h.fc1b}</div></div>
