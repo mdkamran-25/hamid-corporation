@@ -31,7 +31,7 @@ function Brand() {
   return (
     <div className="brand">
       <span className="brand-mark"><Icon name="snowflake" size={21} stroke={2.1} /></span>
-      <span>Hamid<span style={{ color: 'var(--accent-700)' }}>Corp</span><small>{t.nav.tagline}</small></span>
+      <span>Al Shafa<span style={{ color: 'var(--accent-700)' }}>HVAC</span><small>{t.nav.tagline}</small></span>
     </div>
   );
 }
@@ -89,7 +89,7 @@ function Nav({ theme, toggleTheme }) {
   return (
     <header className={'nav' + (scrolled || menuOpen ? ' scrolled' : '')}>
       <div className="wrap nav-inner">
-        <a href="#top" aria-label="Hamid Corporation" onClick={() => setMenuOpen(false)}><Brand /></a>
+        <a href="#top" aria-label="Al Shafa HVAC Service Centre" onClick={() => setMenuOpen(false)}><Brand /></a>
         <nav className="nav-links">
           {t.nav.links.map((l, i) => <a key={i} href={'#' + anchors[i]}>{l}</a>)}
         </nav>

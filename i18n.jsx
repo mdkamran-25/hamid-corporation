@@ -14,7 +14,7 @@ const LANGS = [
 const STRINGS = {
   // ----------------------------------------------------------------- EN
   en: {
-    nav: { links: ['Services', 'Why us', 'Pricing', 'Reviews', 'Coverage', 'FAQ'], tagline: 'Cooling & Appliance Care', book: 'Book a service' },
+    nav: { links: ['Services', 'Why us', 'Pricing', 'Reviews', 'Coverage', 'FAQ'], tagline: 'HVAC & Chiller Specialists', book: 'Book a service' },
     hero: {
       eyebrow: 'Trusted since 2009',
       titleA: 'Cool, fixed & ', titleHl: 'running again', titleB: ' — same day.',
@@ -40,7 +40,7 @@ const STRINGS = {
       emergency: { t: '24/7 Emergency Callout', d: 'Day or night, we answer. Always.', tags: ['Any hour', 'Rapid response', 'All areas'], cta: 'Call the hotline' },
     },
     why: {
-      eyebrow: 'Why Hamid Corporation', title: "Service you'd recommend to your neighbour.",
+      eyebrow: 'Why Al Shafa HVAC', title: "Service you'd recommend to your neighbour.",
       intro: 'What you can count on, every visit.',
       badgeTop: 'Top rated', badgeSub: '1,200+ verified reviews',
       features: [
@@ -114,9 +114,9 @@ const STRINGS = {
       msgUs: 'Message us', newReq: 'New request',
     },
     footer: {
-      brandText: 'Cooling & appliance care across Delhi NCR since 2009.',
+      brandText: 'HVAC & chiller specialists — Gautampuri, Shastri Park, New Delhi.',
       cols: [
-        { h: 'Services', items: ['AC Repair', 'Refrigerator', 'Chiller & Cold Room', 'Freezer', 'Washing Machine'] },
+        { h: 'Services', items: ['AMC Chiller', 'CNC Metal Chiller', 'All Chiller Repairing', 'Emergency Callout', 'AMC Plans'] },
         { h: 'Company', items: ['Why us', 'Reviews', 'Coverage', 'Careers', 'Contact'] },
         { h: 'Support', items: ['Book a service', 'Emergency line', 'AMC plans', 'FAQ', 'Warranty'] },
       ],
@@ -128,7 +128,7 @@ const STRINGS = {
 
   // ----------------------------------------------------------------- HI
   hi: {
-    nav: { links: ['सेवाएँ', 'क्यों हम', 'कीमतें', 'समीक्षाएँ', 'क्षेत्र', 'सवाल-जवाब'], tagline: 'कूलिंग और उपकरण सेवा', book: 'सेवा बुक करें' },
+    nav: { links: ['सेवाएँ', 'क्यों हम', 'कीमतें', 'समीक्षाएँ', 'क्षेत्र', 'सवाल-जवाब'], tagline: 'HVAC और चिलर विशेषज्ञ', book: 'सेवा बुक करें' },
     hero: {
       eyebrow: '2009 से भरोसेमंद',
       titleA: 'ठंडा, दुरुस्त और ', titleHl: 'फिर से चालू', titleB: ' — उसी दिन।',
@@ -154,7 +154,7 @@ const STRINGS = {
       emergency: { t: '24/7 आपातकालीन सेवा', d: 'दिन हो या रात, हम हाज़िर हैं।', tags: ['कभी भी', 'तेज़ प्रतिक्रिया', 'सभी क्षेत्र'], cta: 'हॉटलाइन पर कॉल करें' },
     },
     why: {
-      eyebrow: 'हामिद कॉर्पोरेशन क्यों', title: 'ऐसी सेवा जिसे आप पड़ोसी को सुझाएँ।',
+      eyebrow: 'Al Shafa HVAC क्यों', title: 'ऐसी सेवा जिसे आप पड़ोसी को सुझाएँ।',
       intro: 'हर विज़िट पर आपको यह मिलता है।',
       badgeTop: 'शीर्ष रेटेड', badgeSub: '1,200+ सत्यापित समीक्षाएँ',
       features: [
@@ -228,9 +228,9 @@ const STRINGS = {
       msgUs: 'हमें संदेश करें', newReq: 'नया अनुरोध',
     },
     footer: {
-      brandText: '2009 से दिल्ली NCR भर में कूलिंग और उपकरण सेवा।',
+      brandText: 'HVAC और चिलर विशेषज्ञ — गौतमपुरी, शास्त्री पार्क, नई दिल्ली।',
       cols: [
-        { h: 'सेवाएँ', items: ['AC मरम्मत', 'रेफ्रिजरेटर', 'चिलर और कोल्ड रूम', 'फ्रीज़र', 'वॉशिंग मशीन'] },
+        { h: 'सेवाएँ', items: ['AMC चिलर', 'CNC मेटल चिलर', 'सभी चिलर मरम्मत', 'आपातकालीन सेवा', 'AMC योजनाएँ'] },
         { h: 'कंपनी', items: ['क्यों हम', 'समीक्षाएँ', 'क्षेत्र', 'करियर', 'संपर्क'] },
         { h: 'सहायता', items: ['सेवा बुक करें', 'आपातकालीन लाइन', 'AMC योजनाएँ', 'सवाल-जवाब', 'वारंटी'] },
       ],
@@ -242,7 +242,7 @@ const STRINGS = {
 
   // ----------------------------------------------------------------- UR
   ur: {
-    nav: { links: ['خدمات', 'ہم کیوں', 'قیمتیں', 'آراء', 'علاقے', 'سوالات'], tagline: 'کولنگ اور آلات کی دیکھ بھال', book: 'سروس بُک کریں' },
+    nav: { links: ['خدمات', 'ہم کیوں', 'قیمتیں', 'آراء', 'علاقے', 'سوالات'], tagline: 'HVAC اور چلر ماہرین', book: 'سروس بُک کریں' },
     hero: {
       eyebrow: '2009 سے قابلِ اعتماد',
       titleA: 'ٹھنڈا، درست اور ', titleHl: 'دوبارہ چالو', titleB: ' — اسی دن۔',
@@ -268,7 +268,7 @@ const STRINGS = {
       emergency: { t: '24/7 ہنگامی سروس', d: 'دن ہو یا رات، ہم حاضر ہیں۔', tags: ['کسی بھی وقت', 'تیز ردعمل', 'تمام علاقے'], cta: 'ہاٹ لائن پر کال کریں' },
     },
     why: {
-      eyebrow: 'حامد کارپوریشن کیوں', title: 'ایسی سروس جو آپ پڑوسی کو تجویز کریں۔',
+      eyebrow: 'Al Shafa HVAC کیوں', title: 'ایسی سروس جو آپ پڑوسی کو تجویز کریں۔',
       intro: 'ہر دورے پر آپ کو یہ ملتا ہے۔',
       badgeTop: 'اعلیٰ درجہ', badgeSub: '1,200+ تصدیق شدہ آراء',
       features: [
@@ -342,9 +342,9 @@ const STRINGS = {
       msgUs: 'ہمیں پیغام دیں', newReq: 'نئی درخواست',
     },
     footer: {
-      brandText: '2009 سے دہلی NCR بھر میں کولنگ اور آلات کی دیکھ بھال۔',
+      brandText: 'HVAC اور چلر ماہرین — گوتم پوری، شاستری پارک، نئی دہلی۔',
       cols: [
-        { h: 'خدمات', items: ['AC مرمت', 'ریفریجریٹر', 'چلر اور کولڈ روم', 'فریزر', 'واشنگ مشین'] },
+        { h: 'خدمات', items: ['AMC چلر', 'CNC میٹل چلر', 'تمام چلر مرمت', 'ہنگامی سروس', 'AMC منصوبے'] },
         { h: 'کمپنی', items: ['ہم کیوں', 'آراء', 'علاقے', 'کیریئر', 'رابطہ'] },
         { h: 'مدد', items: ['سروس بُک کریں', 'ہنگامی لائن', 'AMC منصوبے', 'سوالات', 'وارنٹی'] },
       ],
@@ -363,6 +363,8 @@ const CONTACT = {
   phoneDisplay: '+91 93192 23362',
   tel: '+919319223362',          // for tel: links
   wa: '919354423335',            // for wa.me links (no +, no spaces)
+  email: 'hk069634@gmail.com',
+  address: 'T-176, Shop No. 5, Gali No. 5, Gautampuri, Shastri Park, New Delhi-110053',
 };
 const waLink = (text) => 'https://wa.me/' + CONTACT.wa + (text ? '?text=' + encodeURIComponent(text) : '');
 

@@ -197,7 +197,7 @@ function Footer() {
           ))}
         </div>
         <div className="foot-bottom">
-          <p>© {new Date().getFullYear()} Hamid Corporation. {F.rights}</p>
+          <p>© {new Date().getFullYear()} Al Shafa HVAC Service Centre. {F.rights}</p>
           <div className="fb-links">
             <a href="#" style={{ color: 'var(--text-3)' }}>{F.privacy}</a>
             <a href="#" style={{ color: 'var(--text-3)' }}>{F.terms}</a>
